@@ -5,11 +5,11 @@ import './App.css'
 import HelloWorld from './components/HelloWorld'
 
 function App() { //useState(0) means count will start at 0
-  let [count, setCount] = useState(0);//GOTTA USE THIS TO MANIUPLATE VARIABLES THAT CHANGE HOW THE APP RENDERS
+  let [count, setCount] = useState(0);//GOTTA USE THIS TO MANIPuLATE VARIABLES THAT CHANGE HOW THE APP RENDERS
 
   //THIS IF IS AN EXAMPLE OF CONDITIONAL RENDERING
   if (count > 2) {
-    return <p> "it&apos;s greater than 2"</p>; //USING THAT CODE FOR APOSTOPHE!
+    return <p> "it&apos;s greater than 2"</p>; //USING THAT CODE FOR APOSTROPHE!
   } else{
     return (
       <>
